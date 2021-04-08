@@ -3,16 +3,48 @@
 
 
 
-
-
+/*
 
 Function muutaSalaSana1()
     {
-      
+      var teksti1 = "";
+      var salasana1 = document.getElementById('salasana').value;
+      for(x = 0; x < salasana2.length; x++)
+      {
+        teksti1 += salasana1[x] + "x";
+      }
+      dukument.getElementById('vastaus1').inneHTML = teksti1;
     }
 
+*/
+
+    Function muutaSalaSana2()
+        {
+          var teksti2 = "";
+          var salasana2 = document.getElementById('salasana').value;
+          for(x = 0; x < salasana2.length; x++)
+          {
+            teksti2 += salasana2[x] + "Jyri";
+          }
+          dokument.getElementById('vastaus1').inneHTML = teksti2;
+        }
 
 
+
+/*
+        Function muutaSalaSana3()
+            {
+              var teksti3 = "";
+              var salasana3 = document.getElementById('salasana').value
+
+              for(x = 0; x < salasana3.length; x++)
+              {
+                teksti3 += salasana3[x] + "Jarmo";
+              }
+              dokument.getElementById('vastaus1').inneHTML = teksti3;
+            }
+
+*/
 
 
 

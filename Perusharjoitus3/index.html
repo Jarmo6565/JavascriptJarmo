@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="script.js" ></script>
+    <script type="text/javascript" src="script2.js" ></script>
 <link rel="stylesheet" href="tyyli.css">
 </head>
   <body>
@@ -20,9 +20,9 @@
                     luvut siihen asti poislukien 0:n</h3></p>
                     <form action="/action_page.php">
                       <label for="Anna parillinen luku">Anna parillinen luku:</label><br><br>
-                        <input type="text" id="fname" name="fname" value=""><br><br><br>
-                          <input type="Onko ö-kirjainta" value=""><br><br>
-                          <input type="submit" value="Onko ö-kirjainta">
+                        <input type="text" salasana2="fname" name="fname" value=""><br><br><br>
+                          <input type="Tulosta" value=""><br><br>
+                          <input type="submit" value="Tulosta">
                         </form>
                             </div1>
 
@@ -33,10 +33,9 @@
                   joka toiseksi kirjaimeksi ison Ö-kirjaimen, eli<br>
                   jos sana on Kaappi --> KÖaÖaÖpÖpÖiÖ </h3></p>
                   <label for="Anna salasana">Anna salasana:</label><br><br>
-                  <input type="text" id="fname" name="fname" value=""><br><br><br>
-                  <input type="Muuta salasanaksi" value=""><br><br>
-                  <input type="submit" value="Muuta salasanaksi">
-                  </form>
+                  <input type="text" id="salasana2" value="" placeholder="anna salasana"><br><br><br>
+                  <button type="button" name="button" onclick="muutaSalaSana2()">Muuta salasana
+                  <p id="vastaus2"></p>
                   </div2>
                   </div>
 
@@ -48,7 +47,7 @@
          antamassasi sanassa ö-kirjainta ja kirjoittaa<br>
          vastaukseksi joko: on tai ei ole</p></h3>
     <label for="Anna luku">Anna luku:</label><br><br>
-    <input type="text" id="fname" name="fname" value=""><br><br><br>
+    <input type="text" id="salasana2" name="fname" value=""><br><br><br>
     <input type="Tulosta" value=""><br><br>
     <input type="submit" value="Tulosta">
   </form>
