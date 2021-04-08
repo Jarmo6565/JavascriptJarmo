@@ -29,7 +29,7 @@ Function muutaSalaSana1()
           dokument.getElementById('vastaus1').inneHTML = teksti2;
         }
 
-
+//     Laittaa salasanan jokaisen kirjaimen väliin nimen Jyri
 
 /*
         Function muutaSalaSana3()
