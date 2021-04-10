@@ -24,7 +24,7 @@ Function muutaSalaSana1()
           var salasana2 = document.getElementById('salasana').value;
           for(x = 0; x < salasana2.length; x++)
           {
-            teksti2 += salasana2[x] + "Jyri";
+            teksti2 += salasana2[x] + "ö";
           }
           dokument.getElementById('vastaus1').inneHTML = teksti2;
         }
