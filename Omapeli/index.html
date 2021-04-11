@@ -14,22 +14,21 @@
     <h3>Paina numeroa ja arvaa mitä lukua haetaan!</h3>
     <div class="boxit">
       <div class="box1">
-      <button type="button" id="luku2">1</button>
-      <button type="button" id="luku2">2</button>
-      <button type="button" id="luku2">3</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">1</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">2</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">3</button>
     </div>
     <div class="box2">
-      <button type="button" id="luku2">4</button>
-      <button type="button" id="luku2">5</button>
-      <button type="button" id="luku2">6</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">4</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">5</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">6</button>
     </div>
     <div class="box3">
-      <button type="button" id="luku2">7</button>
-      <button type="button" id="luku2">8</button>
-      <button type="button" id="luku2">9</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">7</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">8</button>
+      <button type="button" id="luku2" name="button" onclick="tarkista3()">9</button>
       <div class="box4">
-        <input type="button" id="luku2"value=10 onClick="tarkista3();" >
-
+        <button type="button" id="luku2" name="button" onclick="tarkista3()">10</button>
    </div>
 
     </div>
@@ -45,15 +44,15 @@
 
   	var arvaus = 1*document.getElementById("luku2").value;
 
-  	if (arvaus == 6){
+  	if (arvaus == 5){
   		window.alert("Arvasit oikein!");
-  	}else if (arvaus < 6){
+  	}else if (arvaus < 5){
   		window.alert("Arvasit liian pienen luvun!");
-  	}else if (arvaus > 6){
+  	}else if (arvaus > 5){
   		window.alert("Arvasit liian suuren luvun!");
   	}else{
   		window.alert("Yritä edes.");
-  	};
+  	}
   }
 
   </script>
@@ -62,8 +61,6 @@
 
   <input type="text" id="luku2" value="0" >
   <input type="button" value="Arvaa" onClick="tarkista3();" >
-
-
 
 
     </body>
