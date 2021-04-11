@@ -1,0 +1,2 @@
+<input type="text" id="luku2" value="" >
+<input type="button" value="nappi10" onClick="tarkista3();" >
