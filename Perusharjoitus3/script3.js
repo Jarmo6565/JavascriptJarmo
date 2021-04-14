@@ -1,10 +1,4 @@
 
-/*
-
-var a = "mörkömölli";
-console.log(a.charAt(2));  // palauttaa r
-
-*/
 
 function tarkistaKirjain(
   {
@@ -14,5 +8,6 @@ function tarkistaKirjain(
       {
           vastaus = on;
       }
-  }
-      document.getElementById('vastaus').innerHTML= '<p>'+ vastaus + '</p>';
+
+      document.getElementById('onko o-kirjainta').innerHTML = tuloste;
+}

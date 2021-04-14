@@ -6,3 +6,8 @@ function genCharArray(charA, charZ) {
     return a;
 }
 console.log(genCharArray('a', 'z')); // ["a", ..., "z"]
+
+document.getElementById('onko oooliota').innerHTML = tuloste;
+
+
+}

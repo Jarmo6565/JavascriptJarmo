@@ -17,3 +17,4 @@ for (var i = 1; i <=10; i++) {
  console.log(summa);
 }
 console.log("Lukujen 1-10 summa on " + summa);
+document.getElementById('lukujen 1 - 10 summa').innerHTML = tuloste;

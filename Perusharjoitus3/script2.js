@@ -56,9 +56,9 @@ Function muutaSalaSana1()
 
 
 
-            <SCRIPT LANGUAGE="JavaScript">
+          //  <SCRIPT LANGUAGE="JavaScript">
 
-            <!-- Begin
+          //  <!-- Begin
             function LogIn(){
             loggedin=false;
             username="";
@@ -80,10 +80,3 @@ Function muutaSalaSana1()
             }
             }
             // End -->
-            </SCRIPT>
-
-            <BODY>
-
-            <center>
-            <form><input type=button value="Login!" onClick="LogIn()"></form>
-            </center>

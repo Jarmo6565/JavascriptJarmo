@@ -13,5 +13,5 @@ for(var i = 1; i <=10; i++)
  {
  yhteensa += i;
 }
-document.getElementById('laskutYhteensaI').innerHTML = '<p>'+ yhteensa+ '</p>';
+document.getElementById('laskutYhteensa').innerHTML = '<p>'+ yhteensa+ '</p>';
 }
