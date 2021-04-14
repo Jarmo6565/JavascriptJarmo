@@ -13,7 +13,7 @@
       //  ******************   tai  ****************************
 
         function kerLuku()
-          {
+              { 
               var kerLuku = document.getElementById('kertoma').value;
                 var laskettu = 1;
                   for(var z = 1; z <= kerLuku; Z++
