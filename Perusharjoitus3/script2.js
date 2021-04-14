@@ -17,21 +17,23 @@ Function muutaSalaSana1()
     }
 
 */
-
-    Function muutaSalaSana2()
+/*
+    Function salasana2()
         {
           var teksti2 = "";
           var salasana2 = document.getElementById('salasana').value;
+          var salasana2 = "<p>"
           for(x = 0; x < salasana2.length; x++)
           {
-            teksti2 += salasana2[x] + "ö";
+            teksti2 += salasana2[x] + "Ö"-;
           }
-          dokument.getElementById('vastaus1').inneHTML = teksti2;
+            salasana2 += "</p>";
+          dokument.getElementById('teksti2').inneHTML = teksti2;
         }
 
 //     Laittaa salasanan jokaisen kirjaimen väliin nimen Jyri
 
-/*
+
         Function muutaSalaSana3()
             {
               var teksti3 = "";

@@ -28,7 +28,8 @@ function tehtavaKolme(a, b)
 
   function tehtavaNeljä(a, b)
   {
-    if (a == b) {
+    if (a == b)
+    {
       console.log("Samat");
     }
     else {

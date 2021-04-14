@@ -1,15 +1,33 @@
 
 
+/*
+//<script type="text/javascript">
 
-Function muutaSalaSana3()
-    {
-      var teksti1 = "";
-      var salasana1 = document.getElementById('salasana').value
+function toista(){
+    var luku = 2;                      //valitaan luvulle arvo
+	do {
 
-      for(x = 0; x > salasana1.length; x++);
-      {
-        teksti3 += salasana1[x] + "Ö";
-      }
-      dokument.getElementById('vastaus1').inneHTML = teksti1;
-    }
+        window.alert("Luku " + luku);  //toistettavat käskyt
+        luku = luku + 2;               //muistettava kasvattaa lukua
+
+	}while(luku < 20);
 }
+
+//</script>
+*/
+
+// *********************************************************************
+
+function tulostaParilliset()
+{
+  var myFun = parseInt(document.getElementById('pluku').value);
+  var jono = "<p>";
+  for(var i = 2; i <= myFun; i= i+2);
+  {
+  jono+= i;
+  jono+= " ";
+}
+  jono+= "</p>";
+  document.getElementById('parilliset').innerHTML = jono;
+
+//  *********************************************************************

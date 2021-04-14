@@ -1,15 +1,19 @@
 
+/*
+
+var a = "1, 2, 3,4 5, 6, 7, 8, 9, 10";
+console.log(a)
 
 
+*/
 
-<p id="jarmon"></p>
 
-<script>
-var numerot = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
-var text = "";
-var i;
-for (i = 0; i < numerot.length; i++) {
-text += numerot[i] + "<br>";
+//****************************************************
+
+
+var summa = 0; // alustetaan summa-muuttuja
+for (var i = 1; i <=10; i++) {
+ summa = summa + 1;
+ console.log(summa);
 }
-document.getElementById("jarmon").innerHTML = text;
-</script>
+console.log("Lukujen 1-10 summa on " + summa);

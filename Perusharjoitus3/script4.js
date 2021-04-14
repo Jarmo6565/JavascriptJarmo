@@ -1,12 +1,15 @@
 
 
 
+console.log(4 * 3 * 2 * 1); // tulostaa luvun 12
 
-<p id="p1"></p>
 
-
-		var add = function kertoLasku(val1, val2, val3, val4) {
-			return val1 * val2 * val3 * val4;
-		};
-
-		document.getElementById("p1").innerHTML = add(4, 3, 2, 1);
+function laskeKertoma()
+  {
+     var laskettu = 1;
+    for(var z = 1; z <= kerluku; z++)
+    {
+      laskettu*= z
+    }
+    document.getElementById('kertomaVastaus').innerHTML = '<p>'Luvun ' + kerLuku + kertoma on ' + ' laskettu ' + '</p>';
+  }
