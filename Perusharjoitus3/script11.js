@@ -6,9 +6,10 @@ function pieninSuurin (arr)
   var pienin = taulu.shift();
   var suurin = taulu.pop();
   console.log("taulukon pienin oli: " + pienin + "ja suurin oli " + suurin);
-)
     pieninSuurin([6, 8, 2, 9, 5, 4, 7, 18, 24, 55, 67, 11, 44])
- => a-b);}
+    document.getElementById("pieninSuurin").innerHTML = "tulos";
+
+}
 
 function parillinenPariton(luku)
 {
@@ -19,6 +20,7 @@ function parillinenPariton(luku)
   else{
     console.log("luku on parillinen");
   }
+  document.getElementById("parillinen").innerHTML = "tulos";
 
 }
 
