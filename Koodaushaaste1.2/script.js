@@ -1,8 +1,9 @@
 
 
-var tehtavaYksi= 2, 3
+
 function tehtavaYksi(a, b)
 {
+  var tehtavaYksi = (2, 3)
       console.log(a + b);
 }
 
