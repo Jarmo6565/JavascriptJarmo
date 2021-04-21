@@ -1,59 +1,44 @@
 <!DOCTYPE html>
 <html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="script.js" ></script>
-      <link rel="stylesheet" href="tyyli.css">
-        </head>
-          <body>
-            <style></style>
-
-
-
-
-                <div class="flex-container">
-                <div1>
-                  <h4>Tehtävä 1.</h4><br>
-                    <form action="/action_page.php">
-                      <label for="ekalaatikko">Anna 1. numerot :</label>
-                        <input type="text" id="ekalaatikko1" value="" name="fname"><br><br>
-                        <label for="tokalaatikko">Anna 2. numerot :</label>
-                          <input type="text" id="tokalaatikko" value="" name="lname"><br><br>
-                            <label for="kolmaslaatikko">Anna 3. numerot :</label>
-                              <input type="text" id="kolmaslaatikko" value="" name="lname"><br><br>
-                               <button type="button" name="button" onclick=" pieninSuurin()">Järjestä luvut</button>
-                                </form>
-                              </div1>
-
-
-
-
-
-
-
-
-                <div2>
-                  <h4>Tehtävä 2.</h4><br>
-                    <form action="/action_page.php">
-                    <label for="neljäslaatikko">Anna 1. numerot: </label>
-                    <input type="text" id="poppeli"= name="lname"><br><br>
-                    <label for="viideslaatikko">Anna 2. numerot:</label>
-                    <input type="text" id="pujo" name="lname"><br><br>
-                    <label for="kuudeslaatikko">Anna 3. numerot :</label>
-                    <input type="text" id="kuusi" name="lname"><br><br>
-                    <label for="seitsämäslaatikko">Anna 4. numerot :</label>
-                    <input type="text" id="manty" name="lname"><br><br>
-                    <label for="kahdeksaslaatikko">Anna 5. numerot :</label>
-                    <input type="text" id="paju" name="lname"><br><br>
-
-
-                    <button type="button" name="button" onclick=" pieninSuurin()">Etsin suurin numero</button>
-s </form>
-</div>
+    <link rel="stylesheet" href="tyyli.css">
+  </head>
+  <body>
+    <div class="flex-container">
+      <div1>
+        <h4>Tehtävä 1.</h4><br>
+        <form action="/action_page.php">
+          <label for="ekalaatikko">Anna 1. numerot :</label>
+            <input type="text" id="ekalaatikko1" name="fname"><br><br>
+          <label for="tokalaatikko">Anna 2. numerot :</label>
+            <input type="text" id="tokalaatikko" name="lname"><br><br>
+          <label for="kolmaslaatikko">Anna 3. numerot :</label>
+            <input type="text" id="kolmaslaatikko" name="lname"><br><br>
+          <button type="button" name="button" onclick="zpieninSuurin()">Järjestä luvut</button>
+        </form>
+      </div1>
+      <div2>
+        <h4>Tehtävä 2.</h4><br>
+        <form>
+          <label for="neljäslaatikko">Anna 1. numerot: </label>
+            <input type="text" id="poppeli" name="lname"><br><br>
+          <label for="viideslaatikko">Anna 2. numerot:</label>
+            <input type="text" id="pujo" name="lname"><br><br>
+          <label for="kuudeslaatikko">Anna 3. numerot :</label>
+            <input type="text" id="kuusi" name="lname"><br><br>
+          <label for="seitsämäslaatikko">Anna 4. numerot :</label>
+            <input type="text" id="manty" name="lname"><br><br>
+          <label for="kahdeksaslaatikko">Anna 5. numerot :</label>
+            <input type="text" id="paju" name="lname"><br><br>
+          <button type="button" name="button" onclick="pieninSuurin()">Etsin suurin numero</button>
+        </form>
+      </div2>
     </div>
-
+<!--
 
 
                 <div class="flex-container">
@@ -63,7 +48,7 @@ s </form>
                     <label for="ohjelma3">Onko luku <br>
                       parillinen vai pariton: </label>
                       <input type="text" id="fname" name="fname"><br><br><br><br>
-                      <button type="button" name="button" onclick=" pieninSuurin()">Tarkista</button
+                      <button type="button" name="button" onclick="vpieninSuurin()">Tarkista</button
                       </form>
              </div3>
 
@@ -73,7 +58,7 @@ s </form>
                             <form action="/action_page.php">
                               <label for="fname">Anna käyttäjän ikä: </label>
                                 <input type="text" id="ohjelma4" name="fname"><br><br>
-                                <button type="button" name="button" onclick=" pieninSuurin()">Näytä ajoneuvot</button>
+                                <button type="button" name="button" onclick="ypieninSuurin()">Näytä ajoneuvot</button>
 
                         </div4>
                </div>
@@ -100,6 +85,6 @@ s </form>
                      </div5>
 
 
-
+-->
 </body>
 </html

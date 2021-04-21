@@ -1,25 +1,16 @@
-
-
-
-
-
-
-                        function pieninSuurin()
-                        {
-                            var taulu[0] =  documentgetElementById("poppeli").value;
-                            taulu[1] = documentgetElementById("pujo")= Anna 2. numero;
-                            taulu[2]documentgetElementById("kuusi")(= Anna 3. numero;
-                            taulu[3] documentgetElementById("manty")= Anna 4. numero;
-                            taulu[4] documentgetElementById("paju")= Anna 5. numero;
-
-
-
-                            taulu.sort ((a,b) => a - b );
-
-                            var suurin = taulu.pop();
-
-                            console.log("taulukon suurin oli:" +  pieninSuurin  + "suurin");
-                        }
+function pieninSuurin()
+{
+  alert("toimii");
+  var taulu = [];
+  taulu[0] = ParseInt(document.getElementById("poppeli").value);
+  taulu[1] = ParseInt.getElementById("pujo").value;
+  taulu[2] = ParseInt.getElementById("kuusi").value;
+  taulu[3] = ParseInt.getElementById("manty").value;
+  taulu[4] = ParseInt.getElementById("paju").value;
+  taulu.sort ((a,b) => a - b );
+  var suurin = taulu.pop();
+  console.log("taulukon suurin oli:" +  suurin  + "suurin");
+}
 
 
 
@@ -40,7 +31,7 @@
                                     console.log("Suurin " );
                             }
 
-*/
+
 
 
 
@@ -93,3 +84,4 @@
 
                         }
                     }
+*/
