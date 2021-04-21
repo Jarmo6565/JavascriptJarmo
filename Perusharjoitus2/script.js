@@ -6,9 +6,11 @@
 
                         function pieninSuurin()
                         {
-                            var documentgetElementById= Anna 1. numero;
-                            var documentgetElementById= Anna 2. numero;
-                            var documentgetElementById= Anna 3. numero;
+                            var taulu[0] =  documentgetElementById("poppeli").value;
+                            taulu[1] = documentgetElementById("pujo")= Anna 2. numero;
+                            taulu[2]documentgetElementById("kuusi")(= Anna 3. numero;
+                            taulu[3] documentgetElementById("manty")= Anna 4. numero;
+                            taulu[4] documentgetElementById("paju")= Anna 5. numero;
 
 
 
@@ -16,7 +18,7 @@
 
                             var suurin = taulu.pop();
 
-                            console.log("taulukon suurin oli: + " suurin oli: " + suurin");
+                            console.log("taulukon suurin oli:" +  pieninSuurin  + "suurin");
                         }
 
 
@@ -25,7 +27,7 @@
 
 
 
-
+/*
 
                             function kokkeli(arr)
                             {
@@ -38,7 +40,7 @@
                                     console.log("Suurin " );
                             }
 
-
+*/
 
 
 
@@ -48,7 +50,7 @@
 
                             function testi(nro)
                                 {
-                                    if (nro%2== )
+                                    if (nro%2== 0 )
                                 {
                                     console.log("parillinen");
                                 }
@@ -74,20 +76,20 @@
                         function ikaTarkistus()
                         {
 
-                               if(ika <= 16)
+                              if(ika <= 16)
                         {
 
-                                console.log(saa ajaa polkupyoraa)
+                              console.log("saa ajaa polkupyoraa");
                          }
 
-                               else if(ika <= 18)
+                              else if(ika < 18)
                         {
-                                console.log(saa ajaa mopoa)
+                              console.log("saa ajaa mopoa");
                          }
 
-                                else
+                              else
                         {
-                                console.log(saa ajaa mita vain)
+                              console.log("saa ajaa mita vain");
 
                         }
                     }

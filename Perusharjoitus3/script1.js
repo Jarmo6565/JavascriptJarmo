@@ -1,26 +1,11 @@
 
 
-/*
-//<script type="text/javascript">
-
-function toista(){
-    var luku = 2;                      //valitaan luvulle arvo
-	do {
-
-        window.alert("Luku " + luku);  //toistettavat käskyt
-        luku = luku + 2;               //muistettava kasvattaa lukua
-
-	}while(luku < 20);
-}
-
-//</script>
-*/
 
 // *********************************************************************
 
 function tulostaParilliset()
 {
-  var myFun = parseInt(document.getElementById('pluku').value);
+  var myFun = parseInt(document.getElementById('tiikeri').value);
   var jono = "<p>";
   for(var i = 2; i <= myFun; i= i+2);
   {
@@ -28,6 +13,6 @@ function tulostaParilliset()
   jono+= " ";
 }
   jono+= "</p>";
-  document.getElementById('parilliset').innerHTML = jono;
+  document.getElementById('tiikeri').innerHTML = jono;
 
 //  *********************************************************************
