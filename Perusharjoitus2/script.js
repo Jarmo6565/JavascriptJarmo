@@ -1,12 +1,11 @@
 function pieninSuurin()
 {
-  alert("toimii");
   var taulu = [];
-  taulu[0] = ParseInt(document.getElementById("poppeli").value);
-  taulu[1] = ParseInt.getElementById("pujo").value;
-  taulu[2] = ParseInt.getElementById("kuusi").value;
-  taulu[3] = ParseInt.getElementById("manty").value;
-  taulu[4] = ParseInt.getElementById("paju").value;
+  taulu[0] = parseInt(document.getElementById("poppeli").value);
+  taulu[1] = parseInt(document.getElementById("pujo").value);
+  taulu[2] = parseInt(document.getElementById("kuusi").value);
+  taulu[3] = parseInt(document.getElementById("manty").value);
+  taulu[4] = parseInt(document.getElementById("paju").value);
   taulu.sort ((a,b) => a - b );
   var suurin = taulu.pop();
   console.log("taulukon suurin oli:" +  suurin  + "suurin");
