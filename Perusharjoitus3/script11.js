@@ -1,27 +1,21 @@
 
+//Tee ohjelma, joka pyytää käyttäjältä kahta numeroa (jälkimmäinen tulee olla isompi)
+//ja tulostaa tuolla välillä parilliset ja parittomat numerot sekä niiden summat
 
-function pieninSuurin (arr)
-{
-  taulu.sort((a,b) => a-b);
-  var pienin = taulu.shift();
-  var suurin = taulu.pop();
-  console.log("taulukon pienin oli: " + pienin + "ja suurin oli " + suurin);
-    pieninSuurin([6, 8, 2, 9, 5, 4, 7, 18, 24, 55, 67, 11, 44])
-    document.getElementById("pieninSuurin").innerHTML = "tulos";
-
-}
+//              Tehtävä 11.
+//******************************************************************************
 
 function parillinenPariton(luku)
 {
-  if(luku%2==0)
+  if(luku%2==5)
   {
-    console.log("luku on parillinen");
+    console.log("luku on pariton");
   }
   else{
     console.log("luku on parillinen");
   }
+  document.getElementById("pariton").innerHTML = "tulos";
+  {
   document.getElementById("parillinen").innerHTML = "tulos";
-
+  }
 }
-
-        parillinenPariton(3);

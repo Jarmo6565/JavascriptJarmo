@@ -1,5 +1,5 @@
 
-
+/*
 
 function tehtavaYksi(a, b)
 {
@@ -44,7 +44,7 @@ function tehtavaKolme(a, b)
     console.log(a * 3600 + b + 60 + c);
   }
 
-
+*/
   function tehtavaKuusi(a, b, c)
   {
     function muutaVuodet(c)

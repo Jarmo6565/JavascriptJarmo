@@ -1,11 +1,9 @@
 
 
+// Kirjoita ohjelma, joka laskee 10 ensimmäistä numeroa yhteen
 
-
-//console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 +10);
-
-
-//*******************    tai   *****************************
+//                            Tehtävä 7.
+//******************************************************************************
 function yhteen()
   {
     yhteensa = 0;
@@ -15,3 +13,6 @@ for(var i = 1; i <=10; i++)
 }
 document.getElementById('laskeYhteensa').innerHTML = '<p>'+ yhteensa+ '</p>';
 }
+
+
+//******************************************************************************

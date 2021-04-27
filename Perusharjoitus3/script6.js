@@ -1,14 +1,12 @@
 
-/*
-
-var a = "1, 2, 3,4 5, 6, 7, 8, 9, 10";
-console.log(a)
 
 
-*/
 
+//Kirjoita ohjelma, joka tulostaa 10 ensimmäistä numeroa
 
-//****************************************************
+//                      Tehtävä 6.
+
+//******************************************************************************
 
 
 var summa = 0; // alustetaan summa-muuttuja
@@ -18,3 +16,6 @@ for (var i = 1; i <=10; i++) {
 }
 console.log("Lukujen 1-10 summa on " + summa);
 document.getElementById("lukujen 1 - 10 summa").innerHTML = tuloste;
+
+
+//******************************************************************************
