@@ -1,4 +1,4 @@
-function testi3(kk)
+function scrabble()
 {
   switch(kk)
   {
