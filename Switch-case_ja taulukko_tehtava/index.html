@@ -9,12 +9,35 @@
   </head>
   <body>
 
-              <form action="/action_page.php">
-              <label for="Lasketaan pisteet">Anna sana jonka pisteet lasketaan</label>
-                <input type="text" id="laske pisteet" value="" placeholder="anna sana"><br>
-                <button type="button" name="button" onclick="anna sana()">Laske kirjain pisteet</button>
-              </form>
 
+
+    <div class="flex-container">
+      <div1>
+        <p><h1>Tehtävä 1</h1></p><br>
+        <p><h3>Tee ohjelma, jolle voit syöttää
+          Scrabble-pelin sanan<br>
+           ja ohjelma laskee kirjain pisteet seuraavasti</h3></p>
+              <form action="/action_page.php">
+                <label for="Anna sana">Anna sana:</label><br><br>
+                <input type="text" id="parilliset" value="" placeholder="anna sana"><br><br>
+                  <button type="button" name="button" onclick="muutaSalaSana2()">Laske kirjainpisteet</button>
+                        </form>
+                      </div1>
+
+
+
+                                  <div2><p><h1>Tehtävä 2</h1></p><br>
+                                    <form action="/action_page.php">
+                                      <p><h3>Kirjoita ohjelma, joka muuntaa käyttäjän<br>
+                                        antaman sanan salasanaksi siten, että laittaa<br>
+                                          joka toiseksi kirjaimeksi ison Ö-kirjaimen, eli<br>
+                                            jos sana on Kaappi --> KÖaÖaÖpÖpÖiÖ </h3></p>
+                                              <label for="Anna salasana">Anna salasana:</label><br><br>
+                                                <input type="text" id="muuta salasanaksi" value="" placeholder="anna salasana"><br><br><br>
+                                                  <button type="button" name="button" onclick="muutaSalaSana2()">Arvo numerot</button>
+                                                    <p id="vastaus1"></p>
+                                                  </div2>
+                                                        </div>
 
 
 
