@@ -78,6 +78,6 @@ function scrabble()
 
 
   default:
-    console.log("Et antanut arvoa välillä 1-12");
+    console.log("Laske kirjainpisteet");
     }
   }
