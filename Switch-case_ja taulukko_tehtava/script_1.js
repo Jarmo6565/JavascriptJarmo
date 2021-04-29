@@ -87,4 +87,5 @@ function sanaPisteet()
       }
   }
   console.log(pisteet);
+  document.getElementById("pisteet").innerHTML= pisteet;
 }
