@@ -89,3 +89,19 @@ function sanaPisteet()
   console.log(pisteet);
   document.getElementById("pisteet").innerHTML= pisteet;
 }
+
+function arvo()
+{
+  console.log("hippo");
+  var numerot = [];
+
+  for(i=0;i<7;i++) {
+    numerot.push(Math.floor((Math.random() * 40) + 1));
+  }
+console.log(numerot);
+document.getElementById("numerot").innerHTML = numerot.toString();
+}
+
+function randomInt(max) {
+  return ;
+}
