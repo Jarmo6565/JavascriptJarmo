@@ -13,10 +13,6 @@ function arvo()
 //osaa viedä tuloksen html ohjelmaan id="numeron" paikkaan
 document.getElementById("numerot").innerHTML = numerot;
 }
-
-
-
-
 function randomInt(max) {
   return ;
 }
