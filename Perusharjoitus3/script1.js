@@ -19,5 +19,5 @@ function tulostaParilliset()
 }
   jono+= "</p>";
   document.getElementById('parilliset').innerHTML = jono;
-
+}
 //  *********************************************************************

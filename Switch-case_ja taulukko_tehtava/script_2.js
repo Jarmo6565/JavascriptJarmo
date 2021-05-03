@@ -16,3 +16,4 @@ document.getElementById("numerot").innerHTML = numerot;
 function randomInt(max) {
   return ;
 }
+}
