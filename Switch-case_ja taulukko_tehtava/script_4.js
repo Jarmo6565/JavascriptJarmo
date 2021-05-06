@@ -1,3 +1,8 @@
+//Kirjoita ohjelma, joka tekee
+// taulukon kaikista kortti pakankorteista (2 sisäkkäistä silmukkaa) ja 
+//sen jälkeen sekoittaa "pakan"ja arpoo 5 korttia sieltä
+//taulukon kaikista kortti pakan korteista (2 sisäkkäistä silmukkaa) ja
+//sen jälkeen sekoittaa "pakan" ja arpoo 5 korttia sieltä
 function arvoKortit()
 {
   var korttipakka = [''];
@@ -19,11 +24,15 @@ function arvoKortit()
       }
     }
   }
+
+  // tässä kohtaan valitaan 5 kortti
   var kortit = [];
   for(l = 0; l < 5; l++)
   {
+    // tässä kohtaan arvotaan arvotaan 52 kortin pakasta 5 korttia
     temp = korttipakka[Math.floor(Math.random()*52)];
     kortit[l] = temp;
   }
+  // lähetetään tieto pääohjelmaan id:llä parttikokka
   document.getElementById('parttikokka').innerHTML = '<p>'+kortit+'</p>';
 }
