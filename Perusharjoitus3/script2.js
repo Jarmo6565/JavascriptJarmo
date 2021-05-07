@@ -6,17 +6,16 @@
 //               Tehtävä 2.
 //******************************************************************************
 
-    Function salasana2()
+    function salasana2()
         {
-          var teksti2 = "";
-          var salasana2 = document.getElementById('muuta salasanaksi').value;
-          var salasana2 = "<p>"
-          for(x = 0; x < salasana2.length; x++)
+          var salasana2 = document.getElementById("muuta salasanaksi").value;
+          var salasana = "<p>";
+          for(var x = 0; x < salasana2.length; x++)
           {
-            teksti2 += salasana2[x] + "Ö"-;
+            salasana += salasana2[x] + "Ö"-;
           }
-            salasana2 += "</p>";
-          document.getElementById('muuta salasanaksi').innerHTML = teksti2;
+            salasana += "</p>";
+          document.getElementById("salasanaksi1").innerHTML = salasana;
         }
 
 //     Laittaa salasanan jokaisen kirjaimen väliin nimen Jyri

@@ -9,10 +9,10 @@
 
 function hipheijaa()
   {
-    var tuloste = ' ';
+    var tuloste = '';
      for( var i = 1; i <= 100; i++)
      {
-     if(i%3==0 && i%5==0 )
+     if(i%3==0 && i%5==0)
     {
       console.log('hipheijaa ');
     }
@@ -25,9 +25,9 @@ function hipheijaa()
       console.log('hip ');
     }
       else{
-        console.log(i+);
+        console.log('');
       }
-      document.getElementById('lukujenTulostus').innerHTML = tuloste;
+      document.getElementById("lukujenTulostus").innerHTML = tuloste;
     }
   }
 

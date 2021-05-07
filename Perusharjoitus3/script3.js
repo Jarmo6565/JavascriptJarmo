@@ -5,16 +5,18 @@
 //                      Tehtävä 3.
 //*****************************************************************************
 
-function tarkistaKirjain(
+function tarkistaKirjain()
   {
-    var annettuSana = document.getElementById('Onko ö-kirjainta').value;
-    var vastaus = ei ole;
+    var annettuSana = document.getElementById('Onko Ö-kirjainta').value;
+    var vastaus = 'ei ole';
       for(var k = 0; k < annettuSana.length; k++)
       {
-          vastaus = on;
+        if(annettuSana)[k] == 'A' || annettuSana[k] == 'A-')
+        {
+          vastaus = 'on';
       }
-
-      document.getElementById('Onko ö-kirjainta').innerHTML = tuloste;
+    }
+      document.getElementById('vastaus').innerHTML = vastaus;
 }
 
 

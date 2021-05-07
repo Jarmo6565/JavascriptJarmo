@@ -10,14 +10,14 @@
 
 function tulostaParilliset()
 {
-  var myFun = parseInt(document.getElementById('parilliset').value);
+  var myFun = parseInt(document.getElementById("pulupulu").value);
   var jono = "<p>";
-  for(var i = 2; i <= myFun; i= i+2);
+  for(var i = 2; i <= myFun; i= i+2)
   {
   jono+= i;
   jono+= " ";
 }
   jono+= "</p>";
-  document.getElementById('parilliset').innerHTML = jono;
+  document.getElementById("parilliset").innerHTML = jono;
 }
 //  *********************************************************************
