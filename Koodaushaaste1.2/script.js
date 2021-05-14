@@ -3,21 +3,22 @@
 
 function tehtavaYksi(a, b)
 {
-  var tehtavaYksi = (2, 3)
-      console.log(a + b);
+  var tehtavaYksi = (a + b)
+      console.log(2, 3);
 }
 
 
-var taulukkomuuttuja = [34,566, 71, 89];
 function tehtavaKaksi()
 {
-  console.log(taulukkomuuttuja[0]);
+var taulukkomuuttuja = [34,566, 71, 89];
 }
+  console.log(taulukkomuuttuja[0]);
 
 
+*/
 function tehtavaKolme(a, b)
 {
-  if((a + b) < 100)
+  if((4 + 6) < 100)
 {
     console.log("Lukujen summa on alle 100");
   }
@@ -25,7 +26,7 @@ function tehtavaKolme(a, b)
     console.log("Luvut ovat liian suuria, jotta pystyisin laskemaan");
     }
   }
-
+/*
 
   function tehtavaNeljä(a, b)
   {
@@ -44,7 +45,7 @@ function tehtavaKolme(a, b)
     console.log(a * 3600 + b + 60 + c);
   }
 
-*/
+
   function tehtavaKuusi(a, b, c)
   {
     function muutaVuodet(c)
@@ -98,3 +99,4 @@ function tehtavaKolme(a, b)
   Nyt = muutaVuodet(2020) + muutaKuukaudet(3)+ 25;
   console.log(Nyt-Syntymaaika);
 }
+*/

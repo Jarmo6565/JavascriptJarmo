@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <style>
+      .listitem {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About Me</h1>
+
+    <ul>
+      <li>Nickname: <span id="nickname"></span>
+      <li>Favorites: <span id="favorites"></span>
+      <li>Hometown: <span id="hometown"></span>
+    </ul>
+
+    <script>
+      document.body.style.fontFamily = 'Arial, sans-serif';
+      document.getElementById('nickname').innerHTML = 'Pamela Fox';
+      document.getElementById('favorites').innerHTML = '27';
+      document.getElementById('hometown').innerHTML = 'Pasadena, CA';
+      var items = document.getElementByTagName('li');
+      for (var i = 0; i < items.length; i++) {
+        items[i].className ='listitem';
+      }
+
+    //  var myPic = document.createElement('img');
+      //myPic.src = 'Laita tähän kuva Pamelasta';
+    //  document.body.appendChild(myPic);
+    </script>
+  </body>
+</html>

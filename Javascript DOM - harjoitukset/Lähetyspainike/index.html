@@ -1,0 +1,26 @@
+<!--Tässä on html-esimerkkitiedosto, jossa on lähetyspainike.
+ Muokkaa nyt kappaleen tekstin tyyliä javascript-koodin avulla.  -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS DOM paragraph style</title>
+  </head>
+  <body>
+    <p id ='text'>Javascript Exercises - w3resource</p>
+    <div>
+      <button id="jsstyle"
+      onclick="js_style()">Style</button>
+    </div>
+
+    <script>
+      function js_style()
+      {
+        //font style added by JS
+        text.style.fontSize = "14pt";
+        text.style.fontFamily = "Comic Sans MS"
+        text.style.color = "green";
+      }
+      </script>
+  </body>
+</html>
