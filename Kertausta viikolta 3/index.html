@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script type="text/javascript" src="script.js" >-->
+    <title>Kertausta viikolta 3</title>
+  </head>
+  <body>
+    <script>
+
+
+//Muutujat täytyy aina määritellä
+//Muuttujan voi alustaa määritellyn yhteydessä
+var teksti = "Heippa";
+//Muuttujia voi määritellä useita yhtä aikaa
+var luku, teksti;
+//Kun muuttuja on määritetty, se voidaan alustaa
+luku = 34;
+teksti = "heippa vaan sulekkin";
+//Muuttujan arvoa voidaan muuttaa myöhemmin
+muuttuja =14;
+teksti ="Heisulivei";
+//Muuttujalle voidaan antaa toisen muuttujan arvoa
+luku = muuttuja; // luku = 14;
+console.log(teksti,muuttuja);
+
+/*Funktioilla "tehdään jotakin" ja niitä "kutsutaan" jostakin
+ ja ne määritellään funktion -komennolla aivan samalla tavalla
+ kuin muuttuja määritellään var -komennolla */
+
+ /*Funktiolla tehdään "jotakin" ja niitä "kutsutaan" jostakin ja
+   ne määritellään function -komennolla aivan samalla tavalla
+   kuin muuttuja määritellään var -komennolla*/
+   function laskeYhteen(luku1, luku2)
+  {
+     var summa;
+     summa = luku1 + luku2;
+     return summa;
+   }
+// Kutsutaan functiota
+   console.log(laskeYhteen(5, 3));
+
+//  Silmukka harjoituksia
+var kolmosluvut =  "";
+for(var a=0; a < 100; a+=3)
+{
+  kolmosluvut += a + " ";
+}
+ console.log(kolmosluvut);
+
+
+var samat = "";
+for(var b = 0; b < 100; b++);
+{
+  for(var c = 0; c < 100; c++) //muunna c+2
+  {
+    for(var d = 0; d < 100; d++) //muunna d+=3
+    {
+      if (b == c && c == d)
+      {
+        samat += b + "" + c +""+ d + " ";
+      }
+    }
+  }
+}
+ console.log("samat");
+
+//IF - LAUSE Esimerkki
+var luku = 18;
+if(luku < 0)
+{
+   console.log("Luku on negatiivinen");
+}
+else if(luku < 10)
+{
+  console.log("luku on alle 10");
+}
+else
+ {
+  console.log("luku on aivan liian suuri, että pystyisin käsittelemään sitä");
+}
+
+
+var weather = "kylmä";
+if(weather == "aurinkoinen")
+{
+  console.log("Muista ottaa aurinkolasit mukaan");
+}
+else if (weather == "sateinen")
+{
+  console.log("Muista ottaa sateenvarjo mukaan");
+}
+else if(weather == "kylmä")
+{
+  console.log("Muista pukeutua lämpimästi");
+}
+else {
+  console.log("Tarkista säätila, ennenkuin lähdet ulos");
+}
+
+//Functioita
+function arvoLottonumerot()
+{
+  //Määritellään väliaikainen functio
+  var y;
+  //Määritellään taulukko, johon lottonumerot tallennetaan
+  var z = [];
+  for(var x = 0; x < 7; x++)
+  {
+    //käytetään satunnaislukugeneraattoria (0-1) ja kerrotaan se lottonumeroiden
+  //määrällä ja pyöristetään ylöspäin
+    y = Math.ceil(Math.random()*40);
+  // Tallennetaan luku taulukkoon. Huom. tässä tarkasteta, Onko
+  // luku jo olemassa taulukossa
+  z[x] = y;
+  }
+  //järjestetään taulukko, jotta helpompi lukea vastaus
+  z.sort();
+  //Tulostetaan taulukko näkyviin
+  console.dir(z)
+}
+//Kutsutaan functiota
+//console.logarvoLottonumerot());?????????
+
+//Esimerkki tekstin ketjuttamisesta
+function heippa(nimi)
+{
+  return "Hei, " + nimi + ", mukavaa päivänjatkoa!";
+}
+//kutsutaan functiota
+console.log(heippa("Jyri")); // --> Hei, Jyri, mukavaa päivänjatkoa!
+
+//Edellinen esimerkki IF - lauseen kera
+function heippaIf(nimi)
+{
+  if(nimi == "Jyri")
+  {
+    return "Hei, "  + nimi + ", onpa sinulla todella mahtava nimi!";
+  }
+      else
+    {
+      return "Hei, " + nimi + ", mukavaa päivänjatkoa!";
+    }
+  }
+
+//Kutsutaan functioita
+ console.log(heippaIf("Jyri")); // --> Hei. Jyri, onpa sinulla todella mahtava nimi!
+ console.log(heippaIf("Karri")); // Hei, Timo, mukavaa päivänjatkoa!
+
+
+
+
+
+
+</script>
+</body>
+</html>
